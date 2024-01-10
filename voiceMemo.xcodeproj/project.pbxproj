@@ -12,6 +12,10 @@
 		128AB19F2A7A49EB00775225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128AB19E2A7A49EB00775225 /* Assets.xcassets */; };
 		128AB1A22A7A49EB00775225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128AB1A12A7A49EB00775225 /* Preview Assets.xcassets */; };
 		12F0E94E2A8C869600773BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0E94D2A8C869600773BAD /* AppDelegate.swift */; };
+		33FE3DFD2B4D960200E88CCE /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE3DFC2B4D960200E88CCE /* Color+.swift */; };
+		33FE3E002B4D988000E88CCE /* OnboardingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE3DFF2B4D988000E88CCE /* OnboardingContent.swift */; };
+		33FE3E032B4DA5C900E88CCE /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE3E022B4DA5C900E88CCE /* OnboardingViewModel.swift */; };
+		33FE3E062B4DA9DA00E88CCE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE3E052B4DA9DA00E88CCE /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		128AB19E2A7A49EB00775225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		128AB1A12A7A49EB00775225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12F0E94D2A8C869600773BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33FE3DFC2B4D960200E88CCE /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		33FE3DFF2B4D988000E88CCE /* OnboardingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContent.swift; sourceTree = "<group>"; };
+		33FE3E022B4DA5C900E88CCE /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		33FE3E052B4DA9DA00E88CCE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				128AB1A82A7A4A0800775225 /* App */,
+				33FE3E042B4DA5CD00E88CCE /* Feature */,
+				33FE3DFE2B4D961100E88CCE /* Extension */,
+				33FE3E012B4DA58800E88CCE /* Model */,
 				128AB19E2A7A49EB00775225 /* Assets.xcassets */,
 				128AB1A02A7A49EB00775225 /* Preview Content */,
 			);
@@ -76,6 +87,31 @@
 				128AAF302A8EEF1800797F72 /* LaunchScreen.storyboard */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		33FE3DFE2B4D961100E88CCE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				33FE3DFC2B4D960200E88CCE /* Color+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		33FE3E012B4DA58800E88CCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33FE3DFF2B4D988000E88CCE /* OnboardingContent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33FE3E042B4DA5CD00E88CCE /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				33FE3E022B4DA5C900E88CCE /* OnboardingViewModel.swift */,
+				33FE3E052B4DA9DA00E88CCE /* OnboardingView.swift */,
+			);
+			path = Feature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33FE3E032B4DA5C900E88CCE /* OnboardingViewModel.swift in Sources */,
+				33FE3E002B4D988000E88CCE /* OnboardingContent.swift in Sources */,
 				12F0E94E2A8C869600773BAD /* AppDelegate.swift in Sources */,
+				33FE3E062B4DA9DA00E88CCE /* OnboardingView.swift in Sources */,
+				33FE3DFD2B4D960200E88CCE /* Color+.swift in Sources */,
 				128AB19B2A7A49EA00775225 /* voiceMemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
